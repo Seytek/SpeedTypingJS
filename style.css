@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #515151;
+}
+.app {
+    margin: 35vh auto;
+    width: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.header {
+    background-color: #313131;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.text {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.input {
+    padding: 5px;
+    font-size: 18px;
+}
+.field {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 8px;
+    background-color: #c0c0c0;
+    border-radius: 5px;
+}
+.timer {
+    background-color: #808080;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.restart {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: rgb(117, 117, 223);
+
+    transition: all .3s linear;
+}
+.restart:hover {
+    background-color: #313131;
+}
+
+.results {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.score {
+    color: rgb(23, 144, 23);
+    font-size: 30px;
+}
